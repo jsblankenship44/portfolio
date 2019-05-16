@@ -1,6 +1,71 @@
-#coverimage {
+html,
+body {
     height: 100%;
-    background: url(../images/julie-johnson-666385-unsplashpfoi.jpg) center center;
+    font-size: 16px;
+    font-family: 'Cubano-Regular';
+    background: url('../img/pattern.jpg') center center;
+}
+
+
+/* font faces */
+
+@font-face {
+    font-family: 'Cubano-Regular';
+    src: local('Cubano-Regular.otf'), url('Cubano-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Nunito-Regular';
+    src: local('Nunito-Regular.ttf'), url('Nunito-Regular.ttf') format('truetype');
+}
+
+
+/* section cover */
+
+#cover {
+    height: 100%;
+    background: url(../img/monitor.jpg) center;
     background-size: cover;
     color: white;
 }
+
+.wall-sticker {
+    background: rgba(0, 0, 0, 0.4);
+    font-family: 'Cubano-Regular';
+    padding: 7rem 10rem 2rem 3rem;
+    color: white;
+}
+
+/* change text size according to size of viewing port */
+
+@media screen and (min-width: 992px) {
+  .wall-sticker {
+        font-size: 80px;
+  }
+}
+
+@media only screen and (max-width: 991px){
+    .wall-sticker{
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .wall-sticker{
+        font-size: 20px;
+    }
+}
+
+/* who i am section */
+
+#whoiam {
+    background: url(../img/pattern.jpg) center;
+}
+
+
+.col-md-4 {
+    padding: 2rem;
+    text-align: center;
+}
+
+
