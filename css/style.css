@@ -3,9 +3,17 @@ body {
     height: 100%;
     font-size: 16px;
     font-family: 'Cubano-Regular';
-    background: url('../img/pattern.jpg') center center;
 }
 
+h1 {
+    text-align: center;
+    padding: 2rem;
+}
+
+h3 {
+    font-size: 12px;
+    font-family: 'Nunito-Regular';
+}
 
 /* font faces */
 
@@ -36,7 +44,7 @@ body {
     color: white;
 }
 
-/* change text size according to size of viewing port */
+/* change text size according to size of view port */
 
 @media screen and (min-width: 992px) {
   .wall-sticker {
