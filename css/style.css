@@ -1,7 +1,6 @@
 html,
 body {
     height: 100%;
-    font-size: 16px;
     font-family: 'Cubano-Regular';
 }
 
@@ -35,13 +34,17 @@ h3 {
     background: url(../img/monitor.jpg) center;
     background-size: cover;
     color: white;
+
 }
 
 .wall-sticker {
     background: rgba(0, 0, 0, 0.4);
     font-family: 'Cubano-Regular';
-    padding: 7rem 10rem 2rem 3rem;
+    font-size: 3vw !important;
+    line-height: 4rem;
+    padding: 18rem 10rem 10rem 8rem;
     color: white;
+    
 }
 
 /* change text size according to size of view port */
@@ -64,6 +67,12 @@ h3 {
     }
 }
 
+/*  Sticky nav bar  */
+
+.sticky-top {
+    position: sticky;
+}
+
 /* who i am section */
 
 #whoiam {
@@ -78,92 +87,3 @@ h3 {
 
 /* skills section  */
 
-.skill_percent {
-    width: 900px;
-    margin: 0 auto;
-}
-
-.line {
-    height: 25px;
-    min-width: 800px;
-    margin: 0 auto 10px;
-    line-height: 25px;
-    font-size: 14px;
-    color: #fff;
-    padding: 0 0 0 10px;
-    position: relative;
-}
-
-.line:before {
-    content: '';
-    width: 100%;
-    position: absolute;
-    left: 0;
-    height: 25px;
-    top: 0;
-    z-index: -2;
-    background: #d2d6d7;
-}
-
-.line:after {
-    content: '';
-    background: #333;
-    height: 25px;
-    transition: 0.8s;
-    display: block;
-    width: 100%;
-    animation: animate 1 4s;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-}
-
-.line1:after {
-    max-width: 90%;
-}
-
-.line2:after {
-    max-width: 60%;
-}
-
-.line3:after {
-    max-width: 85%;
-}
-
-.line4:after {
-    max-width: 30%;
-}
-
-.line5:after {
-    max-width: 45%;
-}
-
-.line6:after {
-    max-width: 50%;
-}
-
-.line7:after {
-    max-width: 85%;
-}
-
-.line8:after {
-    max-width: 65%;
-}
-
-.line9:after {
-    max-width: 70%;
-}
-
-.line10:after {
-    max-width: 60%;
-}
-    
-@keyframes animate {
-    0% {
-        width: 0;
-    }
-    100% {
-        width: 100%;
-    }
-}
