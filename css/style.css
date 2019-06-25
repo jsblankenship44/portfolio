@@ -80,6 +80,11 @@ h3 {
     background: url(../img/pattern.jpg) center;
 }
 
+.whoiam_title {
+    text-align: center;
+    padding: 2rem;
+}
+
 
 .col-md-4 {
     padding: 2rem;
@@ -91,4 +96,18 @@ h3 {
 .wiring {
     padding: 2rem;
     text-align: center;
+}
+
+#carousel {
+    padding: 2rem;
+}
+
+/* resume button section */
+
+#resume {
+    background: url(../img/resbackground.jpg) center;
+}
+
+.resume_button {
+    padding: 3rem;
 }
